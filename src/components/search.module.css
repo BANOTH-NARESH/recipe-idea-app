@@ -1,0 +1,138 @@
+.Searchcontainer{
+    margin: 20px;
+    width:300px;
+    position: relative;
+}
+.input{
+    border:none;
+    border-bottom: 1px solid whitesmoke;
+    color: black;
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+
+.item{
+    width:350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.43);
+    margin: 20px;
+    overflow: hidden;
+    font-family: polysans,sans-serif;
+
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+.containeritem{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+.content{
+font-size: 2em;
+font-weight: 600px;
+color: brown;
+}
+.button{
+background-color:rgb(30, 210, 75);
+border: none;
+padding: 8px;
+border-radius: 5px;
+font-size: 14px;
+font-weight: 600px;
+cursor: pointer;
+}
+.containerbutton{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.parent{
+    display: flex;
+
+}
+.innercontainer{
+background-color: goldenrod;
+    flex: 2;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.recipecard {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0,0.2);
+    border-radius: 10px;
+    font-family: polysans,sans-serif;
+    color: brown;
+}
+.colour{
+font-size:24px;
+    margin: 10px;
+
+}
+
+.recipeimage{
+max-width: 100%;
+border-radius: 5px;
+height: auto;
+margin-right: 20px;
+
+}
+.recipedetails{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.instructions{
+    padding: 0px;
+    border-radius: 5px;
+    
+}
+.instructions ol{
+    margin-left: 0px;
+}
+.instructions li{
+    margin: 10px 0px;
+}
+
+.itemContainer{
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgb(0,0 ,0,0.3);
+    border-radius: 10px;
+}
+.imageContainer{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.images{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.nameContainer{
+    margin-left: 50px;
+}
+.name{
+    font-size:larger ;
+    font-weight: bold;
+
+}
+
+.amount{
+    font-weight: bold;
+    margin-top: 10px;
+}
